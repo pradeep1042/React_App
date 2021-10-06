@@ -7,7 +7,7 @@ import axios from "axios";
 
 function App() {
   const [store, dispatch] = useReducer(tableReducer, []);
-  const baseURL = "https://mocki.io/v1/d6739a31-6de3-4123-aa4b-3d6a28f4aba8";
+  const baseURL = "https://mocki.io/v1/fd3cb8c5-b477-44fb-9de4-d00b8ab133e6";
   useEffect(() => {
     axios.get(baseURL).then((response) => {
     dispatch({ type: FETCH_TABLE_DATA, data: response.data });

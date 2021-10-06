@@ -27,7 +27,7 @@ const ChildNode = ({ column, paddingValue, handlerToggle, handlerCheck, selected
   return <>
     <Table.Row>
       <Table.Cell>{column.account && <CheckBox checked={selectedRow === column.id} onChange={() => handlerCheck(column)} />}</Table.Cell>
-      <Table.Cell style={{ paddingLeft: paddingValue,Width:'30%' }}>{column.children.length > 0 && <Button type={"stripped"} onClick={() => handlerToggle(column.id, column.isOpened)}><Arrow rotate={45} /></Button>}{column.description}</Table.Cell>
+      <Table.Cell style={{ paddingLeft: paddingValue, Width: '30%' }}>{column.children.length > 0 && <Button type={"stripped"} onClick={() => handlerToggle(column.id, column.isOpened)}><Arrow rotate={column.isOpened === 1 ? 45 : -45} /></Button>}{column.description}</Table.Cell>
       <Table.Cell>{column.account}</Table.Cell>
       <Table.Cell>{column.createdOn}</Table.Cell>
       <Table.Cell>{column.createdBy}</Table.Cell>
@@ -54,7 +54,7 @@ function Home() {
     { name: 'Account' },
     { name: 'Created On' },
     { name: 'Created By' },
-    { name: 'Currency' },
+    { name: 'Currency' }
   ])
 
   const handlerCheck = (data) => {

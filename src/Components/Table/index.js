@@ -55,6 +55,7 @@ const TableCellStyle = styled.div`
   }
   &:nth-child(3) {
     color:#0b45d1f0;
+    font-weight:600;
   }
 `
 
