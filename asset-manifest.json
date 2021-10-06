@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pradeep1042/React_App.git/static/css/main.66d5e227.chunk.css",
+    "main.js": "/pradeep1042/React_App.git/static/js/main.96564bfd.chunk.js",
+    "main.js.map": "/pradeep1042/React_App.git/static/js/main.96564bfd.chunk.js.map",
+    "runtime-main.js": "/pradeep1042/React_App.git/static/js/runtime-main.4323daf3.js",
+    "runtime-main.js.map": "/pradeep1042/React_App.git/static/js/runtime-main.4323daf3.js.map",
+    "static/js/2.2f71dbd4.chunk.js": "/pradeep1042/React_App.git/static/js/2.2f71dbd4.chunk.js",
+    "static/js/2.2f71dbd4.chunk.js.map": "/pradeep1042/React_App.git/static/js/2.2f71dbd4.chunk.js.map",
+    "static/js/3.21aa1a64.chunk.js": "/pradeep1042/React_App.git/static/js/3.21aa1a64.chunk.js",
+    "static/js/3.21aa1a64.chunk.js.map": "/pradeep1042/React_App.git/static/js/3.21aa1a64.chunk.js.map",
+    "index.html": "/pradeep1042/React_App.git/index.html",
+    "static/css/main.66d5e227.chunk.css.map": "/pradeep1042/React_App.git/static/css/main.66d5e227.chunk.css.map",
+    "static/js/2.2f71dbd4.chunk.js.LICENSE.txt": "/pradeep1042/React_App.git/static/js/2.2f71dbd4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4323daf3.js",
+    "static/js/2.2f71dbd4.chunk.js",
+    "static/css/main.66d5e227.chunk.css",
+    "static/js/main.96564bfd.chunk.js"
+  ]
+}
