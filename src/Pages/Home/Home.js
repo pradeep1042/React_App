@@ -33,7 +33,7 @@ const ChildNode = ({ column, paddingValue, handlerToggle, handlerCheck, selected
       <Table.Cell>{column.createdBy}</Table.Cell>
       <Table.Cell>{column.currency}</Table.Cell>
     </Table.Row>
-    {(column.children && column.children.length > 0) && column.isOpened === 1 && <ParentNode row={column.children} paddingValue={paddingValue + 30} handlerToggle={handlerToggle} handlerCheck={handlerCheck} selectedRow={selectedRow} />}
+    {(column.children && column.children.length > 0) && column.isOpened === 1 && <ParentNode row={column.children} paddingValue={paddingValue + 20} handlerToggle={handlerToggle} handlerCheck={handlerCheck} selectedRow={selectedRow} />}
   </>
 }
 
@@ -50,11 +50,11 @@ function Home() {
   })
 
   const [columns] = useState([
-    { name: 'description' },
-    { name: 'account' },
-    { name: 'created On' },
-    { name: 'created By' },
-    { name: 'currency' },
+    { name: 'Description' },
+    { name: 'Account' },
+    { name: 'Created On' },
+    { name: 'Created By' },
+    { name: 'Currency' },
   ])
 
   const handlerCheck = (data) => {
@@ -70,7 +70,7 @@ function Home() {
   }
 
   const handlerDelete = () => {
-    dispatch({ type: DELETE_TABLE_DATA, id: selectedRowData.id })
+    dispatch({ type: DELETE_TABLE_DATA, id: selectedRowData })
   }
 
   const handlerUpdate = () => {

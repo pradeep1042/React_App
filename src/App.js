@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from 'react'
-import { tableData } from './data';
+// import { tableData } from './data';
 import Home from './Pages/Home/Home';
 import { TableProvider, tableReducer } from './reducer';
 import { FETCH_TABLE_DATA } from './Utils/types';

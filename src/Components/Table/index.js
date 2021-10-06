@@ -21,16 +21,19 @@ const RowStyle = styled.div`
 
 const TableHeaderStyle = styled.div`
   border:1px solid #c5c5c5;
-  background-color:#c5c5c5;
+  background-color:#f6f4f4;
   padding:8px 10px;
   text-align:left;
-  text-transform: uppercase;
-  font-size:12px;
-  font-weight:700;
+  font-size:11px;
+  font-weight:600;
   flex:1;
   &:first-child {
     flex:0 0 35px;
     max-width:35px;
+  }
+  &:nth-child(2) {
+    flex:0 0 350px;
+    max-width:350px;
   }
 `
 
@@ -45,6 +48,13 @@ const TableCellStyle = styled.div`
   &:first-child {
     flex:0 0 35px;
     max-width:35px;
+  }
+  &:nth-child(2) {
+    flex:0 0 350px;
+    max-width:350px;
+  }
+  &:nth-child(3) {
+    color:#0b45d1f0;
   }
 `
 
